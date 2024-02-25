@@ -21,13 +21,13 @@ const content = [
   },
 ];
 
-const key = "RGAPI-eca90827-98bb-4f24-aa41-099b8273d3d2"
+// const key = ""
 
 export default function App() {
 
-  useEffect(function () {
-    fetch(`https://asia.api.riotgames.com/riot/account/v1/accounts/by-puuid/-_QgAWaa5vtcqXnugJ6_CBSI_KLL3QiPdCobE0QItoDsvAkmQG74HvWZSZFjllvs2Iijq736qrQUaQ?api_key=${key}`).then(res => res.json()).then(data => console.log(data)).catch(err => console.log(err))
-  }, [])
+  // useEffect(function () {
+  //   fetch(`https://asia.api.riotgames.com/riot/account/v1/accounts/by-puuid/-_QgAWaa5vtcqXnugJ6_CBSI_KLL3QiPdCobE0QItoDsvAkmQG74HvWZSZFjllvs2Iijq736qrQUaQ?api_key=${key}`).then(res => res.json()).then(data => console.log(data)).catch(err => console.log(err))
+  // }, [])
 
 
   return (
